@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>מערכת 3 - מכירות לפי קטגוריית מוצר</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>מערכת 3 - מכירות לפי קטגוריית מוצר</h1>
+    </header>
+    <div class="container">
+        <p>כלי המאפשר ניתוח הנחות ממוצעות וגיל ממוצע של לקוחות לפי קטגוריית מוצר.</p>
+        <section class="section" id="tableau">
+            <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+            <tableau-viz 
+                id="tableauViz"
+                src="https://public.tableau.com/views/Dash3_17467788810380/DiscountandAverageCustomerAgebyProductCategory"
+                toolbar="bottom"
+                hide-tabs
+                width="100%"
+                height="800">
+            </tableau-viz>
+        </section>
+    </div>
+</body>
+</html>
