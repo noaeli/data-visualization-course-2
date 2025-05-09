@@ -47,3 +47,23 @@ button {
 button:hover {
     background: linear-gradient(to right, #0072ff, #00c6ff);
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: linear-gradient(to right, #3a6073, #16222a);
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #00c6ff;
+}
+
